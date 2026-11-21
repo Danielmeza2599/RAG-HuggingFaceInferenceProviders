@@ -1,0 +1,45 @@
+# Entorno virtual y ejecutables locales
+.venv/
+venv/
+env/
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Cachés y artefactos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Archivos de Streamlit locales
+.streamlit/secrets.toml
+
+# Documentación interna para agentes
+Context/
+
+# Documentos cargados o datos sensibles
+*.pdf
+documentos_ejemplo/
+uploads/
+data/
+
+# Registros temporales
+*.log
+logs/
+
+# Editores y sistemas operativos
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
