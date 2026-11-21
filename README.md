@@ -130,6 +130,3 @@ Prueba el flujo con un PDF que contenga texto seleccionable y una pregunta cuya 
 - La primera ejecución descarga el modelo de embeddings y requiere conexión.
 - Si cambia el modelo y falla la inferencia, revisa su disponibilidad en tu cuenta y reemplaza el identificador.
 
-## Licencia
-
-No verificado: no se encontró un archivo de licencia ni una declaración de licencia en el repositorio. Define una licencia antes de publicar una versión pública si corresponde.
